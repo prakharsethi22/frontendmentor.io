@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <main>
+    <!-- Rating state start -->
+    <div class="rating-state">
+      <div class="star-icon">
+        <img src="images/icon-star.svg" alt="rating star" class="star">
+      </div>
+      <h1 class="how">How did we do?</h1>
+      <p class="para">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <ul class="buttons">
+        <li>
+          <button class="btn">1</button>
+        </li>
+        <li>
+          <button class="btn">2</button>
+        </li>
+        <li>
+          <button class="btn">3</button>
+        </li>
+        <li>
+          <button class="btn">4</button>
+        </li>
+        <li>
+          <button class="btn">5</button>
+        </li>
+      </ul>
+
+      <button class="submit">SUBMIT</button>
+
+    </div>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="thank-you hidden">
+      <div class="thankyou-img">
+        <img src="images/illustration-thank-you.svg" alt="thank you image">
+      </div>
+      <p class="thankyoupara">
+        You selected
+        <span class="input-rating">x</span> out of 5
+      </p>
+
+
+      <h1>Thank you!</h1>
+      <p class="para apresh">We appreciate you taking time to give us a rating.<br>If you ever need more assitance,
+        don't
+        heisitate to get in touch!</p>
+
+
+
+    </div>
+    <!-- Thank you state end -->
+
+
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
