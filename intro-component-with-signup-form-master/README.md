@@ -17,7 +17,7 @@ Users should be able to:
 ![](./final-desktop.jpg)
 ![](final-mobile.jpg)
 
-- Live Site URL: [Add live site URL here](https://splendid-tulumba-cfec5a.netlify.app/)
+- Live Site URL: [Live Site](https://splendid-tulumba-cfec5a.netlify.app/)
 
 ### Built with
 
