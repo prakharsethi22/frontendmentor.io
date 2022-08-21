@@ -16,7 +16,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Netlify Link](https://tiny-palmier-d71de4.netlify.app/)
 
 ## My process
