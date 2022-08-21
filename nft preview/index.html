@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>NFT Preview Component</title>
+  <style>
+    * {
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body class="bg-[#0d192b]">
+  <div class="flex items-center justify-center min-h-screen">
+    <div class="flex flex-col m-5 p-6 space-y-4 rounded-lg shadow-black shadow-xl bg-[#14253d] overflow-hidden">
+
+      <div class="relative rounded-lg overflow-hidden group">
+        <img class="max-w-xs" src="./images/image-equilibrium.jpg" alt="Equilibrium" />
+
+        <div
+          class="absolute inset-0 bg-[#00fff7]/50  justify-center items-center cursor-pointer hidden group-hover:flex">
+          <img src="./images/icon-view.svg" alt="view icon" />
+        </div>
+      </div>
+
+
+      <h1 class="text-xl text-white font-bold hover:text-[#00fff7] hover:cursor-pointer">Equilibrium #3429</h1>
+
+      <p class="text-xs text-[#8bacda] tracking-wide">Our Equilibrium collection promotes balance and calm</p>
+      <div class="flex justify-between">
+        <div class="flex space-x-1">
+          <img src="/images/icon-ethereum.svg" alt=""> <span
+            class="text-xs text-[#00fff7] font-semibold">0.041ETH</span>
+        </div>
+        <div class="flex">
+          <img src="/images/icon-clock.svg" alt="" class="mr-1"> <span
+            class="text-xs text- font-normal italic text-[#8bacda]">3
+            days
+            left</span>
+        </div>
+
+      </div>
+      <div class="border-b border-[#8bacda] opacity-20">
+
+      </div>
+      <div class="flex items-center space-x-2">
+        <img src="/images/image-avatar.png" alt="" class="w-[40px] rounded-full border-r-0">
+        <span class="text-xs text-[#8bacda] font-normal italics">Creation of <span
+            class="text-xs text-white font-bold hover:text-[#00fff7] hover:cursor-pointer">Jules
+            Wyvern</span></span>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</body>
+
+</html>
