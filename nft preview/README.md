@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](/final-desktop.png)
-![Mobile](/final-mobile.png)
+![Desktop](./final-desktop.png)
+![Mobile](./final-mobile.png)
 
 ### Links
 
