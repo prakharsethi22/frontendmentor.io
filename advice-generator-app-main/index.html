@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.js"
+    integrity="sha512-rozBdNtS7jw9BlC76YF1FQGjz17qQ0J/Vu9ZCFIW374sEy4EZRbRcUZa2RU/MZ90X2mnLU56F75VfdToGV0RiA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <title>Advice Generator</title>
+  <style>
+    * {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#0d192b]">
+  <div class="flex flex-col items-center justify-center min-h-screen">
+    <div
+      class="flex flex-col p-5  pb-0 mx-5  space-y-5 text-center items-center justify-center rounded-2xl max-w-md bg-[#323a49]">
+
+      <p class="text-[#52ffa8] font-manrope text-[12px] mb-2 font -semibold tracking-[0.5rem]">ADVICE #<span
+          id="advice-id" class="text-[12px] tracking-[0rem]">X</span>
+      </p>
+      <p class="font-lg font-manrope text-[#cee3e9] text-[29px] leading-9 font-extrabold p-1 text-center text-advice text-xs"
+        id="advice">Lorem
+        ipsum
+        dolor sit amet,
+        consectetur
+        adipisicing elit.
+        Officia, alias!</p>
+      <div class="mb-0 desktop:my-8">
+        <img src="/images/pattern-divider-desktop.svg" class="w-full opacity-0 lg:opacity-100">
+        <img src="/images/pattern-divider-mobile.svg" class="w-full lg:hidden">
+      </div>
+      <button id="advice-button"
+        class="bg-[#52ffa8] w-[50px] h-[50px]  rounded-full flex justify-center items-center relative  hover:shadow-[#52ffa8] duration-200 ease-in shadow-lg translate-y-5">
+        <img src="./images/icon-dice.svg" class="absolute " alt="icon-dice">
+      </button>
+
+
+    </div>
+
+
+  </div>
+  <script src=" app.js"></script>
+</body>
+
+</html>
